@@ -10,21 +10,31 @@ html {
 
 h1 {
   background-color: #595652;
-
-  padding: 50px 10px;
-  margin: 0px;
+  width: 100%;
+  padding: .5em .75em;
+  margin: 0em;
+  border: 10px solid #000;
   font-family: "Bevan", sans-serif;
   font-size: 3em;
   font-weight: bold;
   color: #fff;
   text-align: center;
   display: block;
+
 }
 
 ul {
   display: inline-block;
   text-align: center;
   font-size: 1.125rem;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0.6em;
+  margin: .3em;
+  font-family: "Arial", sans-serif;
+  text-decoration: none;
 }
 
 .intro {
