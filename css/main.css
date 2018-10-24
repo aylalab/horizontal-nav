@@ -14,7 +14,7 @@ h1 {
   padding: .5em .75em;
   margin: 0em;
   border: 10px solid #000;
-  font-family: "Bevan", sans-serif;
+  font-family: Bevan, sans-serif;
   font-size: 3em;
   font-weight: bold;
   color: #fff;
@@ -33,7 +33,7 @@ nav li {
   display: inline-block;
   padding: 0.6em;
   margin: .3em;
-  font-family: "Arial", sans-serif;
+  font-family: Arial , sans-serif;
   text-decoration: none;
 }
 
