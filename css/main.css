@@ -20,47 +20,51 @@ h1 {
   color: #fff;
   text-align: center;
   display: block;
-
-}
-
-ul {
-  display: inline-block;
-  text-align: center;
-  font-size: 1.125rem;
 }
 
 nav li {
-  display: inline-block;
-  padding: 0.6em;
-  margin: .3em;
-  font-family: Arial , sans-serif;
   text-decoration: none;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 1.125rem;
+  text-align: center;
+  border-radius: 4px;
+  border-color:#713837;
+  padding: .6em;
 }
 
 .intro {
   background-color: #713837;
   color: #fff;
   padding: 10px;
+  border-radius: 4px;
 }
 
 .terrestrial {
   background-color: #713837;
   color: #fff;
   padding: 10px;
+  border-radius: 4px;
 }
 
 .mars {
   background-color: #713837;
   color: #fff;
   padding: 10px;
+  border-radius: 4px;
 }
 
 .venus {
   background-color: #713837;
   color: #fff;
   padding: 10px;
+  border-radius: 4px;
 }
 
 body {
   background-color: #595652;
+}
+
+a:hover {
+  background-color: #f33;
 }
