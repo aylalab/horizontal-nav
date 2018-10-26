@@ -1,68 +1,54 @@
 html {
   box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #dbd6cf;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-  line-height: 1.5;
-  background-color: #dbd6cf;
+}
+
+header {
+  display: block;
+  background-color: #79756f;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
 }
 
 h1 {
-  background-color: #595652;
-  width: 100%;
-  padding: .5em .75em;
-  margin: 0em;
-  border: 10px solid #000;
   font-family: Bevan, sans-serif;
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: bold;
-  color: #fff;
   text-align: center;
-  display: block;
+  margin: .3em;
+  padding-bottom: 0;
 }
 
-nav li {
-  text-decoration: none;
+li {
   display: inline-block;
-  font-family: Arial, sans-serif;
-  font-size: 1.125rem;
+}
+
+ul {
   text-align: center;
-  border-radius: 4px;
-  border-color:#713837;
+  list-style-type: none;
   padding: .6em;
 }
 
-.intro {
-  background-color: #713837;
+.nav a {
+  text-decoration: none;
   color: #fff;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-.terrestrial {
+  padding: .5em .75em;
   background-color: #713837;
-  color: #fff;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-.mars {
-  background-color: #713837;
-  color: #fff;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-.venus {
-  background-color: #713837;
-  color: #fff;
-  padding: 10px;
+  font-size: 1.125rem;
+  text-align: center;
   border-radius: 4px;
 }
 
 body {
-  background-color: #595652;
+  background-color: #79756f;
+  margin: 0;
 }
 
 a:hover {
